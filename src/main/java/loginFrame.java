@@ -69,7 +69,7 @@ public class loginFrame extends JFrame {
                 String password = pf.getText();
                 if (userName.equals("wasimasultana") && password.equals("wasIMA")) {
                     JOptionPane.showMessageDialog(null, "You are successfully login the device.");
-                    dispose();
+//                    dispose();
                     newFrame frame = new newFrame();
                     frame.setVisible(true);
                 } else {

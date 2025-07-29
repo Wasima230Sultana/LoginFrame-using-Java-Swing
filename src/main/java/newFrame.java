@@ -7,7 +7,7 @@ public class newFrame extends JFrame{
     private Container c;
     private JLabel label;
     newFrame(){
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.setBounds(420,50,400,400);
         this.setTitle("New Frame");
         
